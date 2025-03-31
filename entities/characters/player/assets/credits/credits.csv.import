@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://d2amdnqgwuanp"
+
+[deps]
+
+files=["res://entities/characters/player/assets/credits/credits.notes.translation", "res://entities/characters/player/assets/credits/credits.authors.translation", "res://entities/characters/player/assets/credits/credits.licenses.translation", "res://entities/characters/player/assets/credits/credits.urls.translation"]
+
+source_file="res://entities/characters/player/assets/credits/credits.csv"
+dest_files=["res://entities/characters/player/assets/credits/credits.notes.translation", "res://entities/characters/player/assets/credits/credits.authors.translation", "res://entities/characters/player/assets/credits/credits.licenses.translation", "res://entities/characters/player/assets/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0
