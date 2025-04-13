@@ -15,6 +15,15 @@ run/main_scene="uid://b5n4c85b8uskg"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Physics="*res://utils/physics.gd"
+
+[debug]
+
+gdscript/warnings/untyped_declaration=1
+gdscript/warnings/inferred_declaration=1
+
 [importer_defaults]
 
 texture={
@@ -24,7 +33,7 @@ texture={
 "compress/lossy_quality": 0.7,
 "compress/mode": 0,
 "compress/normal_map": 0,
-"detect_3d/compress_to": 1,
+"detect_3d/compress_to": 0,
 "mipmaps/generate": false,
 "mipmaps/limit": -1,
 "process/fix_alpha_border": true,
@@ -37,7 +46,13 @@ texture={
 "roughness/src_normal": ""
 }
 
+[physics]
+
+3d/physics_engine="Jolt Physics"
+common/physics_interpolation=true
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
+lights_and_shadows/directional_shadow/size=2048

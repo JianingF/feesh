@@ -1,9 +1,0 @@
-newmtl tileset_town_multi_v002
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Tr 0.000000
-illum 0
-Ns 0.000000
-map_Kd texture_tileset_town_multi_v002.png
-map_d texture_tileset_town_multi_v002.png
